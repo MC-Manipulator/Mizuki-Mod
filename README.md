@@ -3,7 +3,7 @@
 本仓库用于保存与分享《杀戮尖塔》中水月mod的源代码。  
 本模组在Steam创意工坊中的链接：[水月mod](https://steamcommunity.com/sharedfiles/filedetails/?id=3292203496)  
   
-
+resources文件夹的内容，我放入了网盘中，各位可以在这个链接中下载：[资源文件](https://pan.baidu.com/s/1e2u02PDL7h6W9kola6dqVQ?pwd=yqbe)
 ## 答疑
 Q：为什么这个仓库的提交这么少？  
 A：因为在项目建立之初，我没有考虑到项目之后会到如此规模，而且当时我才刚学计算机，对仓库不太熟就没用上（而且就我一个程序）。等到之后忙完一堆事情，想再继续开发mod的时候，才发现自己都不知道代码写到哪里了。  
