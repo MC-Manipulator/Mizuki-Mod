@@ -1,0 +1,16 @@
+{
+  "modid": "Mizuki",
+  "name": "Mizuki（水月）",
+  "author_list": [
+    "傀儡师_lite",
+    "东山书有画",
+    "AGLab"
+  ],
+  "description": "水月与尖塔Mod，加入了角色水月以及其他更多内容。",
+  "version": "0.0.6.0",
+  "sts_version": "12-18-2022",
+  "mts_version": "3.24.0",
+  "dependencies": [
+    "basemod"
+  ]
+}
