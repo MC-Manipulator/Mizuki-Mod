@@ -8,10 +8,12 @@ import basemod.interfaces.*;
 import basemod.patches.com.megacrit.cardcrawl.cards.AbstractCard.DynamicTextBlocks;
 import cards.AbstractMizukiCard;
 /*     */ import characters.Mizuki;
+import com.badlogic.gdx.Game;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.dungeons.Exordium;
 import com.megacrit.cardcrawl.dungeons.TheBeyond;
 import com.megacrit.cardcrawl.dungeons.TheCity;
+import com.megacrit.cardcrawl.helpers.RelicLibrary;
 import com.megacrit.cardcrawl.localization.*;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.monsters.MonsterGroup;
@@ -96,7 +98,7 @@ import vfx.DiceEffect;
 
 @SpireInitializer
 public class MizukiModCore
-        implements EditCharactersSubscriber, EditStringsSubscriber, EditCardsSubscriber, EditRelicsSubscriber, EditKeywordsSubscriber, OnStartBattleSubscriber, AddAudioSubscriber, PostInitializeSubscriber, StartActSubscriber
+        implements EditCharactersSubscriber, EditStringsSubscriber, EditCardsSubscriber, EditRelicsSubscriber, EditKeywordsSubscriber, OnStartBattleSubscriber, AddAudioSubscriber, PostInitializeSubscriber, StartActSubscriber, StartGameSubscriber
 {
 
     public MizukiModCore()
@@ -736,9 +738,25 @@ public class MizukiModCore
 
     private static ArrayList<String> bossList;
 
+    public void OriginalModRelicRemove()
+    {
+
+
+        MizukiModCore.logger.info("原版模式移出遗物");
+    }
+
+    @Override
+    public void receiveStartGame()
+    {
+        if (!Config.RelicAppear.Get() && !(AbstractDungeon.player instanceof Mizuki))
+            OriginalModRelicRemove();
+    }
+
     @Override
     public void receiveStartAct()
     {
+        if (!Config.RelicAppear.Get() && !(AbstractDungeon.player instanceof Mizuki))
+            OriginalModRelicRemove();
         if (AbstractDungeon.player instanceof Mizuki && !MizukiModCore.originalMod)
         {
             if (AbstractDungeon.actNum <= 3)

@@ -1,5 +1,6 @@
 package patches;
 
+import characters.Mizuki;
 import com.evacipated.cardcrawl.modthespire.lib.ByRef;
 import com.evacipated.cardcrawl.modthespire.lib.SpireInsertPatch;
 import com.evacipated.cardcrawl.modthespire.lib.SpirePatch;
@@ -19,9 +20,11 @@ public class OriginalModPatch
     @SpireInsertPatch(loc = 22)
     public static void RemoveMonsters(@ByRef ArrayList<MonsterInfo>[] monsters)
     {
-        if (MizukiModCore.originalMod)
+        if (((AbstractDungeon.player instanceof Mizuki) && MizukiModCore.originalMod) ||
+                (!(AbstractDungeon.player instanceof Mizuki) && !MizukiModCore.Config.FightWithOthers.Get()))
         {
-            MizukiModCore.logger.info("StartOriginalMod");
+
+            MizukiModCore.logger.info("进入原版模式");
             ArrayList<String> removeList = new ArrayList<>();
             removeList.add("Mizuki:" + "DeepSeaSlider");
             removeList.add("Mizuki:" + "DeepSeaSlider_And_FungiBeast");

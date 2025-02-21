@@ -16,7 +16,8 @@ import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.helpers.PotionHelper;
-import relics.Gameplayer;
+import modcore.MizukiModCore;
+import relics.*;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -142,9 +143,41 @@ public class BannedSharedCardsPatch
     {
         public static void Prefix(AbstractDungeon __instance)
         {
-            if (!(AbstractDungeon.player instanceof Mizuki))
+            if (!MizukiModCore.Config.RelicAppear.Get() && !(AbstractDungeon.player instanceof Mizuki))
             {
                 AbstractDungeon.relicsToRemoveOnStart.add(Gameplayer.ID);
+                AbstractDungeon.relicsToRemoveOnStart.add(DariosLantern.ID);
+                AbstractDungeon.relicsToRemoveOnStart.add(Bedrock.ID);
+                AbstractDungeon.relicsToRemoveOnStart.add(CathedralPuzzle.ID);
+                AbstractDungeon.relicsToRemoveOnStart.add(KingsFellowship.ID);
+                AbstractDungeon.relicsToRemoveOnStart.add(NightsunGrass.ID);
+                AbstractDungeon.relicsToRemoveOnStart.add(PortableScriptures.ID);
+                AbstractDungeon.relicsToRemoveOnStart.add(PulseoftheOcean.ID);
+                AbstractDungeon.relicsToRemoveOnStart.add(Wavebreaker.ID);
+
+                AbstractDungeon.relicsToRemoveOnStart.add(ViviparousLily.ID);
+                AbstractDungeon.relicsToRemoveOnStart.add(ChitinousRipper.ID);
+                AbstractDungeon.relicsToRemoveOnStart.add(PureWhiteDanceShoes.ID);
+                AbstractDungeon.relicsToRemoveOnStart.add(JetBlackDanceShoes.ID);
+                AbstractDungeon.relicsToRemoveOnStart.add(MizukisDice.ID);
+                AbstractDungeon.relicsToRemoveOnStart.add(MizukisD8.ID);
+
+                AbstractDungeon.relicsToRemoveOnStart.add(VortexConfluence.ID);
+                AbstractDungeon.relicsToRemoveOnStart.add(OceanVoyage.ID);
+
+                AbstractDungeon.relicsToRemoveOnStart.add(DeepSeaSireSculpture.ID);
+                AbstractDungeon.relicsToRemoveOnStart.add(CastlesOffspring.ID);
+                AbstractDungeon.relicsToRemoveOnStart.add(DuckLordsGoldenBrick.ID);
+                AbstractDungeon.relicsToRemoveOnStart.add(NachzehrersCane.ID);
+                AbstractDungeon.relicsToRemoveOnStart.add(OldFan.ID);
+
+                AbstractDungeon.relicsToRemoveOnStart.add(FlashingSwords.ID);
+                AbstractDungeon.relicsToRemoveOnStart.add(DoctorSilverSeal.ID);
+                AbstractDungeon.relicsToRemoveOnStart.add(BlackTulip.ID);
+                AbstractDungeon.relicsToRemoveOnStart.add(Unleashings.ID);
+                AbstractDungeon.relicsToRemoveOnStart.add(PathfinderFins.ID);
+                AbstractDungeon.relicsToRemoveOnStart.add(BlankCoral.ID);
+                //AbstractDungeon.relicsToRemoveOnStart.add(Gameplayer.ID);
             }
         }
     }
