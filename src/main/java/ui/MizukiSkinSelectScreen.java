@@ -4,12 +4,15 @@ import basemod.BaseMod;
 import basemod.abstracts.CustomSavable;
 import basemod.abstracts.CustomSavableRaw;
 import basemod.interfaces.ISubscriber;
+import basemod.interfaces.PostInitializeSubscriber;
 import characters.Mizuki;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.esotericsoftware.spine.*;
+import com.evacipated.cardcrawl.modthespire.lib.SpireConfig;
+import com.google.gson.reflect.TypeToken;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.core.Settings;
@@ -20,9 +23,11 @@ import com.megacrit.cardcrawl.helpers.ImageMaster;
 import com.megacrit.cardcrawl.helpers.input.InputHelper;
 import modcore.MizukiModCore;
 
+import java.lang.reflect.Type;
 import java.util.ArrayList;
+import java.util.Properties;
 
-public class MizukiSkinSelectScreen implements ISubscriber, CustomSavable<Integer>
+public class MizukiSkinSelectScreen implements ISubscriber
 {
     private static final String[] TEXT;
 
@@ -48,6 +53,8 @@ public class MizukiSkinSelectScreen implements ISubscriber, CustomSavable<Intege
 
     public int index;
 
+    public static Properties skinSelectionDefaults = new Properties();
+
     static
     {
         TEXT = (CardCrawlGame.languagePack.getUIString(MizukiModCore.MakePath(MizukiSkinSelectScreen.class.getSimpleName()))).TEXT;
@@ -67,8 +74,39 @@ public class MizukiSkinSelectScreen implements ISubscriber, CustomSavable<Intege
         refresh();
         this.leftHb = new Hitbox(70.0F * Settings.scale, 70.0F * Settings.scale);
         this.rightHb = new Hitbox(70.0F * Settings.scale, 70.0F * Settings.scale);
-        BaseMod.subscribe(this);
-        BaseMod.addSaveField(MizukiModCore.MakePath("skin"), (CustomSavableRaw) this);
+        BaseMod.subscribe((ISubscriber)this);
+        //BaseMod.addSaveField(MizukiModCore.MakePath("skin"), (CustomSavableRaw) this);
+    }
+
+    private void Save()
+    {
+        try
+        {
+            MizukiModCore.logger.info("保存皮肤选项:" + this.index);
+            SpireConfig config = new SpireConfig("Mizuki", "Mizuki-SkinSelection", skinSelectionDefaults);
+            config.setInt("Mizuki-SkinNum", this.index);
+            config.save();
+        }
+        catch (Exception e)
+        {
+            e.printStackTrace();
+        }
+    }
+
+    public void Load()
+    {
+        try
+        {
+            SpireConfig config = new SpireConfig("Mizuki", "Mizuki-SkinSelection", skinSelectionDefaults);
+            config.load();
+            this.index = config.getInt("Mizuki-SkinNum");
+            MizukiModCore.logger.info("读取皮肤选项:" + this.index);
+            refresh();
+        }
+        catch (Exception e)
+        {
+            e.printStackTrace();
+        }
     }
 
     public void loadAnimation(String atlasUrl, String skeletonUrl, float scale)
@@ -128,6 +166,7 @@ public class MizukiSkinSelectScreen implements ISubscriber, CustomSavable<Intege
                 this.leftHb.clicked = false;
                 CardCrawlGame.sound.play("UI_CLICK_1");
                 this.index = prevIndex();
+                Save();
                 refresh();
             }
             if (this.rightHb.clicked)
@@ -135,6 +174,7 @@ public class MizukiSkinSelectScreen implements ISubscriber, CustomSavable<Intege
                 this.rightHb.clicked = false;
                 CardCrawlGame.sound.play("UI_CLICK_1");
                 this.index = nextIndex();
+                Save();
                 refresh();
             }
             if (InputHelper.justClickedLeft)
@@ -215,16 +255,5 @@ public class MizukiSkinSelectScreen implements ISubscriber, CustomSavable<Intege
             this.shoulder = "resources/img/char/shoulder.png";
             this.name = MizukiSkinSelectScreen.TEXT[index + 1];
         }
-    }
-
-    public void onLoad(Integer arg0)
-    {
-        this.index = arg0.intValue();
-        refresh();
-    }
-
-    public Integer onSave()
-    {
-        return Integer.valueOf(this.index);
     }
 }

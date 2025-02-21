@@ -75,7 +75,6 @@ public abstract class AbstractMizukiCard extends CustomCard implements EventHelp
     @Override
     public void onLoad(ArrayList<Integer> load)
     {
-        MizukiModCore.logger.info("onLoad");
         this.baseMagicNumber = load.get(0);
         this.magicNumber = load.get(1);
         this.baseMagicNumber2 = load.get(2);

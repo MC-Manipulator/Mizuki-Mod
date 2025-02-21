@@ -5,6 +5,7 @@ import basemod.abstracts.CustomSavable;
 import characters.Mizuki;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.evacipated.cardcrawl.modthespire.lib.SpireConfig;
 import com.evacipated.cardcrawl.modthespire.lib.SpirePatch;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.core.Settings;
@@ -72,6 +73,7 @@ public class MizukiBtnPatch
                     if (MizukiBtnPatch.challengeDownHitbox.clicked)
                     {
                         MizukiModCore.originalMod = !MizukiModCore.originalMod;
+                        MizukiModCore.Config.SaveOriginalMod();
                         MizukiBtnPatch.challengeDownHitbox.clicked = false;
                     }
                 }

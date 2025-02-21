@@ -63,7 +63,7 @@ public class Mizuki extends CustomPlayer
         this.stateData.setMix("Idle", "Die", 0.1F);
         AnimationState.TrackEntry e = this.state.setAnimation(0, "Idle", true);
         e.setTimeScale(1.5F);
-        refreshSkin();
+        //refreshSkin();
     }
 
     public static class Enums

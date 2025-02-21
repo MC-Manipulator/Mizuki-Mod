@@ -90,11 +90,13 @@ import java.util.Random;
 import rewards.AbstractMizukiReward;
 import rewards.IngredientReward;
 import rewards.SingleCard;
+import ui.MizukiConfigUI;
+import ui.MizukiSkinSelectScreen;
 import vfx.DiceEffect;
 
 @SpireInitializer
 public class MizukiModCore
-        implements EditCharactersSubscriber, EditStringsSubscriber, EditCardsSubscriber, EditRelicsSubscriber, EditKeywordsSubscriber, OnStartBattleSubscriber, AddAudioSubscriber, PostInitializeSubscriber, StartActSubscriber, CustomSavable<Boolean>
+        implements EditCharactersSubscriber, EditStringsSubscriber, EditCardsSubscriber, EditRelicsSubscriber, EditKeywordsSubscriber, OnStartBattleSubscriber, AddAudioSubscriber, PostInitializeSubscriber, StartActSubscriber
 {
 
     public MizukiModCore()
@@ -127,6 +129,10 @@ public class MizukiModCore
     public static boolean TutorialClosed = false;
 
     public static boolean originalMod;
+
+    public static Properties originalModDefaults = new Properties();
+
+    public static MizukiConfigUI Config;
 
     public static void initialize()
     {
@@ -295,7 +301,18 @@ public class MizukiModCore
         receiveEditKeywords();
         receiveImg();
         receiveAddReward();
+        receiveConfig();
     }
+
+    private void receiveConfig()
+    {
+        Config = new MizukiConfigUI();
+        Config.Initialize();
+        Config.InitializeOptions();
+        MizukiSkinSelectScreen.Inst.Load();
+    }
+
+
 
     private void receiveImg()
     {
@@ -769,6 +786,7 @@ public class MizukiModCore
                         bossList.clear();
                         bossList.add(ParanoiaIllusion.ID);
                         bossList.add(ParanoiaIllusion.ID);
+                        bossList.add(ParanoiaIllusion.ID);
                         /*
                         if ()
                         {
@@ -848,6 +866,7 @@ public class MizukiModCore
         }
     }
 
+    /*
     public void onLoad(Boolean arg0)
     {
         originalMod = arg0.booleanValue();
@@ -856,5 +875,5 @@ public class MizukiModCore
     public Boolean onSave()
     {
         return Boolean.valueOf(originalMod);
-    }
+    }*/
 }
