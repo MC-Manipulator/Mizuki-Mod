@@ -27,29 +27,33 @@ public class CookingHelper
         public int crabLegs = 0;
         public int paddy = 0;
         public int slicedMeat = 0;
-        public int fowlbeastWingsMeat = 0;
         public int legMeatWithBone = 0;
-        public int cartilageChunks = 0;
         public int meatEssence = 0;
         public AbstractCard food = null;
 
-        public Formula(int crabLegs, int paddy, int slicedMeat, int fowlbeastWingsMeat, int legMeatWithBone, int cartilageChunks, int meatEssence, AbstractCard food)
+        public Formula(int crabLegs, int paddy, int slicedMeat, int legMeatWithBone, int meatEssence, AbstractCard food)
         {
+            this.crabLegs = 0;
+            this.paddy = 0;
+            this.slicedMeat = 0;
+            this.legMeatWithBone = 0;
+            this.meatEssence = 0;
+            this.food = null;
             this.crabLegs = crabLegs;
             this.paddy = paddy;
             this.slicedMeat = slicedMeat;
-            this.fowlbeastWingsMeat = fowlbeastWingsMeat;
             this.legMeatWithBone = legMeatWithBone;
-            this.cartilageChunks = cartilageChunks;
             this.meatEssence = meatEssence;
             this.food = food;
         }
 
         public boolean ifMatch(Formula formula)
         {
-            return crabLegs == formula.crabLegs && paddy == formula.paddy
-                    && slicedMeat == formula.slicedMeat && fowlbeastWingsMeat == formula.fowlbeastWingsMeat && legMeatWithBone == formula.legMeatWithBone
-                    && cartilageChunks == formula.cartilageChunks && meatEssence == formula.meatEssence;
+            return (this.crabLegs == formula.crabLegs &&
+                    this.paddy == formula.paddy &&
+                    this.slicedMeat == formula.slicedMeat &&
+                    this.legMeatWithBone == formula.legMeatWithBone &&
+                    this.meatEssence == formula.meatEssence);
         }
 
         public void reset()
@@ -57,10 +61,8 @@ public class CookingHelper
             this.crabLegs = 0;
             this.paddy = 0;
             this.slicedMeat = 0;
-            this.fowlbeastWingsMeat = 0;
             this.legMeatWithBone = 0;
             this.meatEssence = 0;
-            this.cartilageChunks = 0;
             this.food = null;
         }
     }
@@ -101,7 +103,6 @@ public class CookingHelper
             formulas = new ArrayList<>();
         }
 
-        /*
         formulas.add(new Formula(3, 0, 0, 0, 0, new FreshSlicedCrab()));
         formulas.add(new Formula(0, 3, 0, 0, 0, new SeasonedSolidFood()));
         formulas.add(new Formula(0, 0, 3, 0, 0, new DriedLeanMeat()));
@@ -145,7 +146,6 @@ public class CookingHelper
         formulas.add(new Formula(0, 1, 1, 0, 1, new CarbonWaterFattyAggregate()));
         formulas.add(new Formula(0, 1, 0, 1, 1, new EnergyAgent()));
         formulas.add(new Formula(0, 0, 1, 1, 1, new MoleculeCapsule()));
-        */
 
     }
 
@@ -159,7 +159,7 @@ public class CookingHelper
         //确保当前配方的容器存在
         if (currFormula == null)
         {
-            currFormula = new Formula(0, 0, 0, 0, 0, 0, 0, null);
+            currFormula = new Formula(0, 0, 0, 0, 0, null);
         }
         //读取当前配方
         for (AbstractCard c : ingredientsChosen)
@@ -176,26 +176,23 @@ public class CookingHelper
             {
                 currFormula.slicedMeat++;
             }
-            else if (c instanceof FowlbeastWingsMeat)
-            {
-                currFormula.fowlbeastWingsMeat++;
-            }
             else if (c instanceof LegMeatWithBone)
             {
                 currFormula.legMeatWithBone++;
-            }
-            else if (c instanceof CartilageChunks)
-            {
-                currFormula.cartilageChunks++;
             }
             else if (c instanceof MeatEssence)
             {
                 currFormula.meatEssence++;
             }
         }
-        MizukiModCore.logger.info("crablegs:" + currFormula.crabLegs + ",paddy:" + currFormula.paddy
-                + ",slicedMeat:" + currFormula.slicedMeat + ",fowlbeastWingsMeat:" + currFormula.fowlbeastWingsMeat + ",legMeatWithBone:" + currFormula.legMeatWithBone
-                + ",cartilageChunks:" + currFormula.cartilageChunks + ",meatEssence:" + currFormula.meatEssence);
+
+        MizukiModCore.logger.info(
+                "crablegs:" + currFormula.crabLegs +
+                ",paddy:" + currFormula.paddy +
+                ",slicedMeat:" + currFormula.slicedMeat +
+                ",legMeatWithBone:" + currFormula.legMeatWithBone +
+                ",meatEssence:" + currFormula.meatEssence);
+
         //判断当前配方与哪个已存在配方相符合
         for (Formula formula : formulas)
         {
@@ -306,7 +303,7 @@ public class CookingHelper
     {
         return new MeatEssence();
     }
-
+/*
     public static CardGroup getFoodInDeck()
     {
         CardGroup retVal = new CardGroup(CardGroup.CardGroupType.UNSPECIFIED);
@@ -333,5 +330,5 @@ public class CookingHelper
         {
             return true;
         }
-    }
+    }*/
 }

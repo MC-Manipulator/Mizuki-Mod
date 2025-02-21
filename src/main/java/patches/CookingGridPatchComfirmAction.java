@@ -49,6 +49,7 @@ public class CookingGridPatchComfirmAction
                     CookingHelper.display = new ArrayList<>();
                     for (AbstractCard c : AbstractDungeon.gridSelectScreen.selectedCards)
                     {
+                        MizukiModCore.logger.info(c.name);
                         CookingHelper.display.add(c.makeStatEquivalentCopy());
                     }
                     CookingHelper.confirmScreenForCooking = true;
@@ -67,7 +68,7 @@ public class CookingGridPatchComfirmAction
                 }
                 catch (Exception e)
                 {
-                    MizukiModCore.logger.info(e);
+                    MizukiModCore.logger.info("食物一级界面发生错误:" + e);
                 }
                 AbstractDungeon.overlayMenu.cancelButton.show(GridCardSelectScreen.TEXT[1]);
                 /*

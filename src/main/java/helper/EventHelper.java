@@ -1,6 +1,5 @@
 package helper;
 
-import actions.SelectFoodAction;
 import basemod.BaseMod;
 import basemod.abstracts.CustomSavable;
 import basemod.interfaces.*;
@@ -45,7 +44,7 @@ public class EventHelper implements
     public int losthealthinturn = 0;
     public int changedhealthinturn = 0;
     public int delta = 0;
-    public static int satietyDegree = 0;
+    //public static int satietyDegree = 0;
     public int previoushealth = 0;
     public int currenthealth = 0;
     public static int poetryGelUsedTimes = 2;
@@ -162,13 +161,14 @@ public class EventHelper implements
         monstersList.clear();
         monstersList.addAll((AbstractDungeon.getCurrRoom()).monsters.monsters);
 
+        /*
         //饱腹度清空
         satietyDegree = 0;
         //打开食物选取界面
         if (CookingHelper.hasFoodInDeck())
         {
             AbstractDungeon.actionManager.addToTop(new SelectFoodAction());
-        }
+        }*/
     }
 
     public void receivePostRender(SpriteBatch sb)
