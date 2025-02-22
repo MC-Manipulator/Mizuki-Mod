@@ -32,4 +32,10 @@ public class DuckLordsGoldenBrick extends AbstractMizukiRelic
         super.onEquip();
         AbstractDungeon.getCurrRoom().spawnRelicAndObtain(Settings.WIDTH / 2.0F, Settings.HEIGHT / 2.0F, new MizukisD8());
     }
+
+    @Override
+    public boolean canSpawn()
+    {
+        return AbstractDungeon.player.hasRelic(MizukisDice.ID);
+    }
 }
