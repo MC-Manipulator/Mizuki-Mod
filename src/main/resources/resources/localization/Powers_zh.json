@@ -1,0 +1,365 @@
+{
+  "Mizuki_HysterotraumaticPower": {
+    "NAME": "创伤性癔症",
+    "DESCRIPTIONS": [
+      "每当你仅对生命值最低的敌人指定攻击牌时，使其失去 !M! 点生命。"
+    ]
+  },
+  "Mizuki_CountertransferencePower": {
+    "NAME": "反移情",
+    "DESCRIPTIONS": [
+      "回合开始时，每有一个生命小于等于一半的角色，抽 !M! 张牌。"
+    ]
+  },
+  "Mizuki_CaerulorumSeminaPower": {
+    "NAME": "深蓝之籽",
+    "DESCRIPTIONS": [
+      "本回合中每使用一张牌，获得 !M! 点 力量 。"
+    ]
+  },
+  "Mizuki_EntreatyoftheHeraldPower": {
+    "NAME": "使者之约",
+    "DESCRIPTIONS": [
+      "回合开始时，使所有手牌获得 #y虚无 。当诅咒牌被消耗时，恢复",
+      "点生命并抽",
+      "张牌回合结束时，向牌组中加入 #b1 张 #y排异 。"
+    ]
+  },
+  "Mizuki_CrazyProliferationPower": {
+    "NAME": "疯狂增殖",
+    "DESCRIPTIONS": [
+      "你的 力量 每回合结束时减少3点但治疗效果进一步提升"
+    ]
+  },
+  "Mizuki_EnvironmentAnalyzingPower": {
+    "NAME": "环境分析",
+    "DESCRIPTIONS": [
+      "回合开始时少抽 !M! 张牌并进行 !M! 次选择，从抽牌堆中最多3张牌中选择1张放入手牌。"
+    ]
+  },
+  "Mizuki_StressResponsePower": {
+    "NAME": "应激反应",
+    "DESCRIPTIONS": [
+      "下一次受到 #y攻击 时，对攻击者造成 !M! 点反伤。"
+    ]
+  },
+  "Mizuki_PainAdaptationPower": {
+    "NAME": "痛感适应",
+    "DESCRIPTIONS": [
+      "每损失 #b4 次生命值 ，阻止下 !M! 次你受到的生命值损伤。"
+    ]
+  },
+  "Mizuki_PainPower": {
+    "NAME": "痛感",
+    "DESCRIPTIONS": [
+      "当你获得 #b4 层 #y痛感 时，阻止下 #b",
+      " 次你受到的生命值损伤。"
+    ]
+  },
+  "Mizuki_TolerancePower": {
+    "NAME": "耐受",
+    "DESCRIPTIONS": [
+      "接下来 !M! 次受到的 #b攻击 伤害减半。"
+    ]
+  },
+  "Mizuki_EchoOfOvergrowthPower": {
+    "NAME": "徒长之回响",
+    "DESCRIPTIONS": [
+      "回合开始时进行一次选择，对力量、敏捷、生命、卡牌中的一项进行选择，强化选中的那一选项并削弱其他未选择的选项。"
+    ]
+  },
+  "Mizuki_EchoOfAdaptationPower": {
+    "NAME": "适应之回响",
+    "DESCRIPTIONS": [
+      "回合开始时，消耗所有能量。每消耗1点能量，下一张牌额外打出 !M! 次。 "
+    ]
+  },
+  "Mizuki_FreeToUsePower": {
+    "NAME": "免费牌",
+    "DESCRIPTIONS": [
+      "你打出下 !M! 张牌无视耗能。"
+    ]
+  },
+  "Mizuki_StunMonsterPower": {
+    "NAME": "击晕",
+    "DESCRIPTIONS": [
+      "在 #b",
+      " 个回合内不作任何行动。",
+      " 个回合内不作任何行动。",
+      "眩晕"
+    ]
+  },
+  "Mizuki_BreathOfTheTidePower": {
+    "NAME": "经典游戏：最后的骑士",
+    "DESCRIPTIONS": [
+      "若战斗结束时，仍有 #y多层护甲 ，向牌组中放入 !M! 张 #y骑士仍在 。"
+    ]
+  },
+  "Mizuki_PacFishPower": {
+    "NAME": "经典游戏：吃豆鳞",
+    "DESCRIPTIONS": [
+      "仅用一回合，使1名敌人的生命从最大生命降低到0时，获得等同于其最大生命的金币 !M! 次。"
+    ]
+  },
+  "Mizuki_CopyAttackCardPower": {
+    "NAME": "复制攻击牌",
+    "DESCRIPTIONS": [
+      "将下 !M! 张打出的攻击牌的复制品放入你的手牌中，并使其获得 #y消耗 。"
+    ]
+  },
+  "Mizuki_NerveCorrosionPower": {
+    "NAME": "神经腐蚀",
+    "DESCRIPTIONS": [
+      "触发 #y神经损伤 时，额外流失 !M! 次生命。"
+    ]
+  },
+  "Mizuki_TowerOfTheWitchKingPower": {
+    "NAME": "经典游戏：巫王魔塔",
+    "DESCRIPTIONS": [
+      "如果用被冠以 #y勇者之剑 的卡牌击杀一个敌人，则在战斗结束时获得 !M! 金币。"
+    ]
+  },
+  "Mizuki_EchoOfPredationPower": {
+    "NAME": "争斗之回响",
+    "DESCRIPTIONS": [
+      "本回合中每造成一次未被格挡的伤害，给予敌人 !M! 点 #y神经损伤 。"
+    ]
+  },
+  "Mizuki_EchoOfDeathAndRebirthPower": {
+    "NAME": "枯荣之回响",
+    "DESCRIPTIONS": [
+      "每当 #y斩杀 一个敌人，提升 #b",
+      " 点最大生命并恢复 #b",
+      " 点生命。每回合开始时，失去 !M! 点生命，给予所有敌人 !M! 点 #y神经损伤 。"
+    ]
+  },
+  "Mizuki_UntargetablePower": {
+    "NAME": "隐匿",
+    "DESCRIPTIONS": [
+    ]
+  },
+  "Mizuki_HidingPower": {
+    "NAME": "潜藏",
+    "DESCRIPTIONS": [
+      "如果本回合结束前没有使用攻击牌，则在下回合开始时进入 #y隐匿 。"
+    ]
+  },
+  "Mizuki_MultipleCardsPlayPower": {
+    "NAME": "多重释放",
+    "DESCRIPTIONS": [
+      "下一张牌额外释放 !M! 次。"
+    ]
+  },
+  "Mizuki_MultipleAttackCardsPlayPower": {
+    "NAME": "攻击多重释放",
+    "DESCRIPTIONS": [
+      "下一张攻击牌额外释放 !M! 次。"
+    ]
+  },
+  "Mizuki_MultipleSkillCardsPlayPower": {
+    "NAME": "技能多重释放",
+    "DESCRIPTIONS": [
+      "下一张技能牌额外释放 !M! 次。"
+    ]
+  },
+  "Mizuki_PreciousDailyPower": {
+    "NAME": "平凡即是喜乐",
+    "DESCRIPTIONS": [
+      "每当打出耗能为 #b0 的牌，抽 !M! 张牌。每回合最多触发 #b1 次。",
+      "（本回合已触发）"
+    ]
+  },
+  "Mizuki_GiveImpToATKerPower": {
+    "NAME": "神经反射",
+    "DESCRIPTIONS": [
+      "下一次受到 #y攻击 时，给予攻击者 !M! 点 #y神经损伤 。"
+    ]
+  },
+  "Mizuki_ArousalPower": {
+    "NAME": "神经侵蚀",
+    "DESCRIPTIONS": [
+      "你的下一次攻击给予 !M! 点 #y神经损伤 。"
+    ]
+  },
+  "Mizuki_ArmourPenetrationPower": {
+    "NAME": "穿甲",
+    "DESCRIPTIONS": [
+      "受到的攻击伤害提升 !M! 点。"
+    ]
+  },
+  "Mizuki_StealthPower": {
+    "NAME": "隐匿",
+    "DESCRIPTIONS": [
+      "不会被牌指定，持续 !M! 回合。"
+    ]
+  },
+  "Mizuki_LevitatePower": {
+    "NAME": "浮空",
+    "DESCRIPTIONS": [
+      "本回合无法从卡牌中获得 #y格挡 ，持续 !M! 回合。",
+      "飘在空中好像没办法做出有效防御..."
+    ]
+  },
+  "Mizuki_ChargePower": {
+    "NAME": "蓄力",
+    "DESCRIPTIONS": [
+      "下 !M! 次攻击造成的伤害翻倍。"
+    ]
+  },
+  "Mizuki_DyingPower": {
+    "NAME": "注亡",
+    "DESCRIPTIONS": [
+      "每回合失去 !M! 点生命。"
+    ]
+  },
+  "Mizuki_DreamInterruptedPower": {
+    "NAME": "惊梦",
+    "DESCRIPTIONS": [
+      "每回合失去",
+      "等同于最大生命 #r15% 的生命，给予敌人",
+      "点 #y神经损伤 。"
+    ]
+  },
+  "Mizuki_AcidPower": {
+    "NAME": "酸蚀",
+    "DESCRIPTIONS": [
+      "下次攻击给予 !M! 点 #y神经损伤 。"
+    ]
+  },
+  "Mizuki_LowAltitudeHoveringPower": {
+    "NAME": "近地悬浮",
+    "DESCRIPTIONS": [
+      "将所受到的 攻击 伤害降低 #b50% 。受到异常状态后失去该能力。"
+    ]
+  },
+  "Mizuki_SwarmCallPower": {
+    "NAME": "巢涌",
+    "DESCRIPTIONS": [
+      "每回合开始时，对 #b",
+      " 造成 #b",
+      " 点伤害，并给予 #b",
+      " 点神经损伤。"
+    ]
+  },
+  "Mizuki_DeadlyRhythmPower": {
+    "NAME": "致命节奏",
+    "DESCRIPTIONS": [
+      "每造成1次未被格挡的伤害，获得 !M! 点 #y力量 。若一回合内未从自身获得 #y力量 ，则失去一半的 #y力量 。"
+    ]
+  },
+  "Mizuki_PhantomOfNetherseaPower": {
+    "NAME": "深溟幻形",
+    "DESCRIPTIONS": [
+      "受到攻击伤害时，有 #b",
+      "50% 概率闪避。当具有负面状态时，该效果失效。"
+    ]
+  },
+  "Mizuki_PocketSeaStingPower": {
+    "NAME": "囊海刺伤",
+    "DESCRIPTIONS": [
+      "当失去 !M! 点生命，对敌人造成等同于自身力量的伤害并给予 #b",
+      " 点元素损伤"
+    ]
+  },
+  "Mizuki_LanternUndyingPower": {
+    "NAME": "灯火不灭",
+    "DESCRIPTIONS": [
+      "流明下 !M! 次行动时，若目标有负面状态，则清除负面状态，并使该能力失去 #b1 层。"
+    ]
+  },
+  "Mizuki_AmmoPower": {
+    "NAME": "手炮弹药",
+    "DESCRIPTIONS": [
+      "当持有该能力时，圣徒卡门会使用 #r爆裂铳射 。"
+    ]
+  },
+  "Mizuki_WeakPointPower": {
+    "NAME": "弱点",
+    "DESCRIPTIONS": [
+      "当圣徒卡门受到 #b",
+      " 点伤害后，当前行动将会被打断并陷入 #b1 回合 #y晕眩 。"
+    ]
+  },
+  "Mizuki_ArtsEnhancingPower": {
+    "NAME": "源石技艺",
+    "DESCRIPTIONS": [
+      "下 !M! 次造成伤害时，直接造成生命损失。"
+    ]
+  },
+  "Mizuki_AlertPower": {
+    "NAME": "警戒",
+    "DESCRIPTIONS": [
+      "当处于你的回合时，每过 #b1 秒，萨卡兹哨兵的 #y警戒 就会上升 #b1 层。当受到伤害或者警戒层数达到 #b50 ，萨卡兹哨兵会进入警戒状态并呼叫增援。"
+    ]
+  },
+  "Mizuki_SymbiosisPower": {
+    "NAME": "共生",
+    "DESCRIPTIONS": [
+      "当",
+      "受到致命伤害时，若其余敌人未死亡，则进入复活状态。"
+    ]
+  },
+  "Mizuki_ErgodicPower": {
+    "NAME": "遍历",
+    "DESCRIPTIONS": [
+      "每攻击 #b",
+      " 次，召唤1个塑路者分形，其生命值百分比与该敌人相同。"
+    ]
+  },
+  "Mizuki_FractalPower": {
+    "NAME": "分形",
+    "DESCRIPTIONS": [
+      "每受到 #b",
+      " 次 攻击，若没有死亡，召唤1个塑路者分形，其生命值百分比与该敌人相同。"
+    ]
+  },
+  "Mizuki_ErosionPower": {
+    "NAME": "侵蚀",
+    "DESCRIPTIONS": [
+      "当造成未被格挡的伤害时，给予 !M! 点 #y神经损伤 。"
+    ]
+  },
+  "Mizuki_TransformingPower": {
+    "NAME": "蜕变",
+    "DESCRIPTIONS": [
+      "当造成未被格挡的伤害时，恢复等量生命。"
+    ]
+  },
+  "Mizuki_BloodConnectedPower": {
+    "NAME": "血脉相连",
+    "DESCRIPTIONS": [
+      "当 #b",
+      " 受到伤害时， #b",
+      " 会受到等量伤害。"
+    ]
+  },
+  "Mizuki_HungerSensePower": {
+    "NAME": "饥饿本能",
+    "DESCRIPTIONS": [
+      "若 #b",
+      " 在同一回合中打出至少 #b",
+      " 种基本类型的卡牌，则打断 #b",
+      " 的行动。"
+    ]
+  },
+  "Mizuki_CoatingDevicePower": {
+    "NAME": "镀膜装置",
+    "DESCRIPTIONS": [
+      "当你打出 #b3 种基本类型的卡牌后，镀膜装置开始工作。"
+    ]
+  },
+  "Mizuki_SilencePower": {
+    "NAME": "静谧",
+    "DESCRIPTIONS": [
+      "你每使用 #b4 张牌，使偏执泡影下 #b1 次攻击额外造成 #b1 次伤害。",
+      "攻击次数上升"
+    ]
+  },
+  "Mizuki_GainDexterityPower": {
+    "NAME": "束缚",
+    "DESCRIPTIONS": [
+      "在其回合结束时恢复 #b",
+      " 点 #y敏捷 。"
+    ]
+  }
+}

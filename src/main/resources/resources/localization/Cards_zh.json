@@ -1,0 +1,425 @@
+{
+  "Mizuki_Strike_Mizuki": {
+    "NAME": "打击",
+    "DESCRIPTION": "造成 !D! 点伤害。"
+  },
+  "Mizuki_Defend_Mizuki": {
+    "NAME": "防御",
+    "DESCRIPTION": "获得 !B! 点 格挡 。"
+  },
+  "Mizuki_Mirage": {
+    "NAME": "镜花水月",
+    "DESCRIPTION": " 虚无 。 NL 对所有敌人 NL 造成 !D! 点伤害并给予 !M! 点 mizuki:神经损伤 。 NL 如果只存在一个敌人，失去 !MKM2! 点生命。"
+  },
+  "Mizuki_Hysterotraumatic": {
+    "NAME": "创伤性癔症",
+    "DESCRIPTION": "每当你仅对生命最低的敌人指定攻击牌时，使其失去 !M! 点生命。"
+  },
+  "Mizuki_Countertransference": {
+    "NAME": "反移情",
+    "DESCRIPTION": "在你的回合开始时，每有一个生命小于等于一半的角色，抽 !M! 张牌",
+    "UPGRADE_DESCRIPTION": " 固有 。 NL 在你的回合开始时，每有一个生命小于等于一半的角色，抽 !M! 张牌"
+  },
+  "Mizuki_Arousal": {
+    "NAME": "唤醒",
+    "DESCRIPTION": "你的下一张攻击牌造成 !M! 点额外伤害并给予生命最低的1名敌人 !MKM2! 点 mizuki:神经损伤 。"
+  },
+  "Mizuki_Kettle": {
+    "NAME": "热水壶",
+    "DESCRIPTION": "抽 !M! 张牌，恢复 4 点生命。 NL  消耗 。"
+  },
+  "Mizuki_PsychedelicMelody": {
+    "NAME": "迷幻旋律",
+    "DESCRIPTION": "造成 !D! 点伤害，使其在本回合失去等同于造成伤害的 力量 。"
+  },
+  "Mizuki_HyperplasticTentacle": {
+    "NAME": "增生触手",
+    "DESCRIPTION": " 消耗 。 NL 造成 !D! 点伤害，将弃牌堆中 !M! 张攻击牌的原始复制品放到你的手牌，使其具有 消耗 。 NL 当你使用复制品时，将 *增生触手 置入抽牌堆。",
+    "UPGRADE_DESCRIPTION": " 消耗 。 NL 造成 !D! 点伤害，将弃牌堆中 !M! 张攻击牌的原始复制品放到你的手牌，使其具有 消耗 。 NL 当你使用复制品时，将 *增生触手+ 置入抽牌堆。"
+  },
+  "Mizuki_PrisonersDilemma": {
+    "NAME": "囚徒困境",
+    "DESCRIPTION": "对所有敌人造成 !D! 点伤害， 给予 !M! 点 mizuki:神经损伤 。"
+  },
+  "Mizuki_Hiding": {
+    "NAME": "潜藏",
+    "DESCRIPTION": " 消耗 。 NL 如果本回合没有使用攻击牌，则进入 mizuki:隐匿 。"
+  },
+  "Mizuki_EntreatyoftheHerald": {
+    "NAME": "使者之约",
+    "DESCRIPTION": "在你的回合开始时，使所有手牌获得 虚无 。 NL 每当 诅咒 牌被 消耗 ，抽 !M! 张牌并恢复 !MKM2! 生命。 NL 在你的回合结束时， 向抽牌堆中加入一张 mizuki:排异 牌。",
+    "UPGRADE_DESCRIPTION": " 固有 。 NL 在你的回合开始时，使所有手牌获得 虚无 。 NL 每当 诅咒 牌被 消耗 ，抽 !M! 张牌并恢复 !MKM2! 生命。 NL 在你的回合结束时， 向抽牌堆中加入一张 mizuki:排异 牌。"
+  },
+  "Mizuki_CaerulorumSemina": {
+    "NAME": "深蓝之籽",
+    "DESCRIPTION": " 消耗 。 NL 失去 !M! 点生命。 NL 本回合中每使用一张牌，获得 !MKM2! 点 力量 。"
+  },
+  "Mizuki_AdaptingStrike": {
+    "NAME": "适应性打击",
+    "DESCRIPTION": " 消耗 。 NL 造成 !D! 点伤害。 NL 若斩杀，战斗结束后获得 !M! 个攻击牌奖励。"
+  },
+  "Mizuki_BodyChange": {
+    "NAME": "肢体转化",
+    "DESCRIPTION": "失去 !M! 点最大生命。 NL 获得 !B! 点 格挡 。 NL 在你的抽牌堆中加入一张 *强化触手 。",
+    "UPGRADE_DESCRIPTION": "失去 !M! 点最大生命。 NL 获得 !B! 点 格挡 。 NL 在你的抽牌堆中加入一张 *强化触手+ 。"
+  },
+  "Mizuki_EnhancedTentacle": {
+    "NAME": "强化触手",
+    "DESCRIPTION": " 消耗 。 NL 造成 !D! 点伤害。 NL 若弃牌堆中有 *肢体转化 ，将其消耗并获得 !M! 点最大生命。"
+  },
+  "Mizuki_TargetedEvolution": {
+    "NAME": "针对性进化",
+    "DESCRIPTION": "获得 !B! 点格挡。 NL 使当前 力量 与 敏捷 的数值对调。"
+  },
+  "Mizuki_EnvironmentAnalyzing": {
+    "NAME": "环境分析",
+    "DESCRIPTION": "回合开始时少抽 !M! 张牌并进行 !M! 次选择，从抽牌堆中最多3张牌中选择1张放入手牌。"
+  },
+  "Mizuki_StressResponse": {
+    "NAME": "应激反应",
+    "DESCRIPTION": "下次受到 *攻击 后，对攻击者造成 !M! 点反伤并给予 !MKM2! 点 mizuki:神经损伤 。"
+  },
+  "Mizuki_CrisisConsciousness": {
+    "NAME": "危机意识",
+    "DESCRIPTION": "获得X点 格挡 ，X等同于一名敌人下次行动将要造成的伤害的一半。",
+    "UPGRADE_DESCRIPTION": "获得X+ !B! 点 格挡 ，X等同于一名敌人下次行动将要造成的伤害的一半。"
+  },
+  "Mizuki_PainAdaptation": {
+    "NAME": "痛感适应",
+    "DESCRIPTION": "每失去4次生命，阻止下1次你受到的生命值损伤。"
+  },
+  "Mizuki_EchoOfOvergrowth": {
+    "NAME": "徒长之回响",
+    "DESCRIPTION": "在你的回合开始时，对力量、敏捷、生命、卡牌中的一项进行选择，强化选中的那项并削弱其他选项。"
+  },
+  "Mizuki_EchoOfAdaptation": {
+    "NAME": "适应之回响",
+    "DESCRIPTION": "在你的回合开始时，消耗所有 [E] 。 NL 每回合中你打出的第1张牌耗能为0，且每消耗1点 [E] ，额外打出1次。"
+  },
+  "Mizuki_StrengthOption": {
+    "NAME": "力量",
+    "DESCRIPTION": "强化：获得 !M! 点 力量 。 NL 削弱：失去 !MKM2! 点 力量 。"
+  },
+  "Mizuki_DexterityOption": {
+    "NAME": "敏捷",
+    "DESCRIPTION": "强化：获得 !M! 点 敏捷 。 NL 削弱：失去 !MKM2! 点 敏捷 。"
+  },
+  "Mizuki_HealthOption": {
+    "NAME": "生命",
+    "DESCRIPTION": "强化：恢复 !M! 点生命。 NL 削弱：失去 !MKM2! 点生命。"
+  },
+  "Mizuki_CardOption": {
+    "NAME": "卡牌",
+    "DESCRIPTION": "强化：抽 !M! 张牌。 NL 削弱：弃 !MKM2! 张牌。"
+  },
+  "Mizuki_StrengtheningStab" : {
+    "NAME": "渐强刺击",
+    "DESCRIPTION": "造成 !D! 点伤害，随机分配到所有敌人身上。 NL mizuki:学习 ( !M! / !MKM4! )：当该牌打出时，所有敌人总计伤害每有 !MKM3! 点，该牌造成伤害增加2点。"
+  },
+  "Mizuki_DirectPain" : {
+    "NAME": "戏耍",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 给予 !M! 层 易伤 。 NL mizuki:学习 ( !M! )：每受伤 !MKM3! 次，给予 易伤 增加1层。 NL （已累计受伤 !MKM2! 次）"
+  },
+  "Mizuki_LearnedHelplessness" : {
+    "NAME": "习得性无助",
+    "DESCRIPTION": "消除随机 !M! 种自身负面效果，给予一名敌人已储存的负面效果 !MKM2! 层。 NL mizuki:学习 ( !MKM3! )：每当该牌消耗1种不同效果时，将其储存。"
+  },
+  "Mizuki_DissociativeIdentityDisorder" : {
+    "NAME": "分离性身份障碍",
+    "DESCRIPTION": "将 !M! 张其它颜色的牌置入你的手牌。 NL mizuki:学习 ( !M! / !MKM4! )：每使用 !MKM3! 次通过该牌获得的牌，使置入的卡牌数增加 1 张。 NL （已使用 !MKM2! 次）"
+  },
+  "Mizuki_CramUp" : {
+    "NAME": "死记硬背",
+    "DESCRIPTION": "打出已储存的牌，并清空储存的内容。 NL mizuki:学习 ( !M! / !MKM4! )：每当使用一张其它角色的牌，将其一张复制储存。 NL (已储存 !M! 张)",
+    "UPGRADE_DESCRIPTION": "打出已储存的牌。 NL mizuki:学习 ( !M! / !MKM4! )：每当使用一张其它角色的牌，将其一张复制储存。 NL (已储存 !M! 张)"
+  },
+  "Mizuki_MultipleGrowth" : {
+    "NAME": "多重生长",
+    "DESCRIPTION": "造成 !D! 点伤害 !M! 次。 NL mizuki:学习 ( !M! / !MKM4! )：在弃牌堆时，每使用 !MKM3! 张攻击牌，提升1次攻击次数。 NL (已打出 !MKM2! 张)"
+  },
+  "Mizuki_EchoOfExploration" : {
+    "NAME": "探索之回响",
+    "DESCRIPTION": " 消耗 。 NL 从3张任一其他颜色的牌中选择1张，将其置入手牌。 NL 若跳过，则失去 !M! 点生命再次触发该效果。 NL 每跳过1次，出现的牌本回合耗能额外减少1点。"
+  },
+  "Mizuki_AdaptiveEvolution" : {
+    "NAME": "自适应进化",
+    "DESCRIPTION": "抽 !M! 张牌，使其在本场战斗中升级。 NL mizuki:学习 ( !M! / !MKM4! )：你的生命每变化 !MKM3! 次，多抽1张牌。 NL （已变化 !MKM2! 次）"
+  },
+  "Mizuki_Metabolism" : {
+    "NAME": "息潮的代价",
+    "DESCRIPTION": "获得 X 点格挡，X等同于本回合内变化的生命。 NL （已变化 !MKM2! 点）",
+    "UPGRADE_DESCRIPTION": "获得 X+ !B! 点格挡，X等同于本回合内变化的生命。 NL （已变化 !MKM2! 点）"
+  },
+  "Mizuki_Regression" : {
+    "NAME": "退行",
+    "DESCRIPTION": "本回合失去 !M! 点 力量 和 敏捷 ，获得 [E] [E]",
+    "UPGRADE_DESCRIPTION": "本回合失去 !M! 点 力量 和 敏捷 ，获得 [E] [E] [E]"
+  },
+  "Mizuki_MindTentacle" : {
+    "NAME": "思维触手",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 给予 !M! 点 mizuki:神经损伤 。"
+  },
+  "Mizuki_Assimilate" : {
+    "NAME": "同化",
+    "DESCRIPTION": "消耗 !M! 张手牌。 NL 获得 !MKM2! 张具有 消耗 的 *思维触手 。",
+    "UPGRADE_DESCRIPTION": "消耗 !M! 张手牌。 NL 获得 !MKM2! 张具有 消耗 的 *思维触手+ 。"
+  },
+  "Mizuki_EntanglementProliferation" : {
+    "NAME": "多维折射",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 将本回合下 !M! 张打出的攻击牌的原始复制品放入你的手牌中，并使其获得 消耗 。"
+  },
+  "Mizuki_BreathOfTheTide" : {
+    "NAME": "最后的骑士",
+    "DESCRIPTION": " 固有 ， 虚无 。 NL mizuki:游戏 。 NL 获得 !M! 层 多层护甲 。 NL *目标 ：在战斗结束时，仍然保有 多层护甲 。 NL *奖励 ：获得 *骑士仍在 。"
+  },
+  "Mizuki_AbsurdFate" : {
+    "NAME": "骑士仍在",
+    "DESCRIPTION": " 消耗 。 NL 失去 !M! 点生命。 NL 获得 [E] 。 NL 抽 !MKM3! 张牌。",
+    "UPGRADE_DESCRIPTION": " 消耗 。 NL 失去 !M! 点生命。 NL 获得 [E] [E] 。 NL 抽 !MKM3! 张牌。"
+  },
+  "Mizuki_PacFish" : {
+    "NAME": "吃豆鳞",
+    "DESCRIPTION": " mizuki:游戏 。 NL 造成 !D! 点伤害。 NL *目标 ：仅用一回合，使1名敌人的生命从最大生命降低到 0 。 NL *奖励 ：获得等同于敌人最大生命的金币。"
+  },
+  "Mizuki_NerveCorrosion" : {
+    "NAME": "神经腐蚀",
+    "DESCRIPTION": "当敌人的 mizuki:神经损伤 爆发时，额外流失 !M! 次生命。",
+    "UPGRADE_DESCRIPTION": " 固有 。 NL 当敌人的 mizuki:神经损伤 爆发时，额外流失 !M! 次生命。"
+  },
+  "Mizuki_MindTouch" : {
+    "NAME": "思维触摸",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 该敌人每有 !M! 点 mizuki:神经损伤 ，下次触发 mizuki:神经损伤 时，额外流失 !MKM2! 次等同于该牌造成伤害的生命。",
+    "UPGRADE_DESCRIPTION": " 保留 。 NL 造成 !D! 点伤害。 NL 该敌人每有 !M! 点 mizuki:神经损伤 ，下次触发 mizuki:神经损伤 时，额外流失 !MKM2! 次等同于该牌造成伤害的生命。"
+  },
+  "Mizuki_ResidualLight" : {
+    "NAME": "余光漫漫",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 使敌人的 mizuki:元素枯竭 恢复 !M! 点。 NL 使自身 mizuki:元素损伤 失去 !MKM2! 点。"
+  },
+  "Mizuki_Ruminate" : {
+    "NAME": "酸蚀反刍",
+    "DESCRIPTION": " 消耗 。 NL 造成 !D! 点伤害。 NL 失去 !M! 点最大生命。 NL 恢复 !MKM2! 点生命。"
+  },
+  "Mizuki_TowerOfTheWitchKing" : {
+    "NAME": "巫王魔塔",
+    "DESCRIPTION": " 消耗 ， 保留 。 NL 在本场战斗中， 升级 手牌中的1张攻击牌，并使其获得 保留 。 NL mizuki:游戏 。 NL *目标 ：用被该牌升级的卡牌击杀敌人。 NL *奖励 ： !MKM2! 金币。"
+  },
+  "Mizuki_EchoOfOneAmongMany" : {
+    "NAME": "众我之回响",
+    "DESCRIPTION": "造成 !D! 点伤害，获得 !B! 点 格挡 ，恢复 !M! 点生命。 NL 本场战斗中，你每使用过一张名称重复的牌，随机提升上述效果，重复 !MKM2! 次。"
+  },
+  "Mizuki_EchoOfPredation" : {
+    "NAME": "争斗之回响",
+    "DESCRIPTION": " 虚无 ， 消耗 。 NL 使所有角色获得 !M! 层 易伤 。 NL 本回合中，每有一次攻击造成未被格挡的伤害，就给予 !MKM2! 点 mizuki:神经损伤 。"
+  },
+  "Mizuki_EchoOfAssimilation" : {
+    "NAME": "改造之回响",
+    "DESCRIPTION": " 保留 。 NL 进行一次改造。 NL 该牌不可升级。",
+    "EXTENDED_DESCRIPTION": [
+      " 保留 。 NL 填满你的药水栏。 NL 改造进度（ !M! / !MKM2! ）",
+      " 保留 。 NL 战斗结束后获得1个普通遗物奖励。 NL 改造进度（ !M! / !MKM2! ）",
+      " 保留 。 NL 战斗结束后获得3个卡牌奖励。 NL 改造进度（ !M! / !MKM2! ）",
+      " 保留 。 NL 提升10点最大生命。 NL 改造进度（ !M! / !MKM2! ）"
+    ]
+  },
+  "Mizuki_EchoOfDeathAndRebirth" : {
+    "NAME": "枯荣之回响",
+    "DESCRIPTION": "每当 斩杀 一个敌人，获得 !M! 点最大生命并恢复 !MKM2! 点生命。 NL 每回合开始时，失去 !MKM3! 点生命，给予所有敌人 !MKM4! 点 mizuki:神经损伤 。"
+  },
+  "Mizuki_EchoOfProliferation" : {
+    "NAME": "给养之回响",
+    "DESCRIPTION": ""
+  },
+  "Mizuki_CrabLegs" : {
+    "NAME": "蟹腿",
+    "DESCRIPTION": " mizuki:食材 。 NL 消耗 。 NL 获得 !M! 点 敏捷 。"
+  },
+  "Mizuki_Paddy" : {
+    "NAME": "稻谷",
+    "DESCRIPTION": " mizuki:食材 。 NL 消耗 。 NL 恢复 !M! 点生命。"
+  },
+  "Mizuki_SeasonedSolidFood" : {
+    "NAME": "调味干粮",
+    "DESCRIPTION": "{@@} mizuki:食物 。 NL 恢复 !MKM2! 点生命。 NL {!mizuki:LastBite!|1= （还剩 !M! 口）|-1= （最后一口！）}"
+  },
+  "Mizuki_CrabMeatMixedRace" : {
+    "NAME": "蟹肉碎拌饭",
+    "DESCRIPTION": "{@@} mizuki:食物 。 NL   获得 !MKM2! 点最大生命。 NL {!mizuki:LastBite!|1= （还剩 !M! 口）|-1= （最后一口！）}"
+  },
+  "Mizuki_SteamedRiceWithCrabShell" : {
+    "NAME": "蟹壳蒸饭",
+    "DESCRIPTION": "{@@} mizuki:食物 。 NL 提升 !MKM2! 点 敏捷 。 NL {!mizuki:LastBite!|1= （还剩 !M! 口）|-1= （最后一口！）}"
+  },
+  "Mizuki_FreshSlicedCrab" : {
+    "NAME": "鲜切蟹生",
+    "DESCRIPTION": "{@@} mizuki:食物 。 NL 获得 !B! 点 格挡 。 NL {!mizuki:LastBite!|1= （还剩 !M! 口）|-1= （最后一口！）}"
+  },
+  "Mizuki_MetastaticAberration" : {
+    "NAME": "血肉畸变",
+    "DESCRIPTION": " 不能被打出 。 NL 抽到这张牌时，本回合失去 !M! 点 力量 ，并抽 !MKM2! 张牌。"
+  },
+  "Mizuki_HemopoieticInhibition" : {
+    "NAME": "造血障碍",
+    "DESCRIPTION": " 不能被打出 。 NL 在手牌中时，每当生命变化，失去 !M! 点生命。 NL 该效果每回合最多触发 !MKM2! 次。"
+  },
+  "Mizuki_Neurodegeneration" : {
+    "NAME": "神经退行",
+    "DESCRIPTION": " 不能被打出。 NL 在手牌中时，当你打出攻击牌，失去 !M! 点能量并丢弃该牌。"
+  },
+  "Mizuki_ConcentrationDisorder" : {
+    "NAME": "专注失调",
+    "DESCRIPTION": " 不能被打出 。 NL 在你的回合结束时，打出你抽牌堆顶部的牌。"
+  },
+  "Mizuki_Screwdriver" : {
+    "NAME": "改刀",
+    "DESCRIPTION": "造成 !D! 点伤害 !M! 次。 NL 若 斩杀 ，战斗结束后获得 !MKM2! 个 mizuki:食材 奖励。"
+  },
+  "Mizuki_FleshUnderTheKnife" : {
+    "NAME": "先吃为敬",
+    "DESCRIPTION": " 消耗 。 NL 造成 !D! 伤害。 NL 如果敌人生命低于一半，战斗结束后获得 !M! 个高级的 mizuki:食材 奖励。"
+  },
+  "Mizuki_PreciousDaily" : {
+    "NAME": "知足常乐",
+    "DESCRIPTION": "每当打出耗能为0的牌，抽 !M! 张牌。 NL 每回合最多触发 !MKM2! 次。",
+    "UPGRADE_DESCRIPTION": " 固有 。 NL 每当打出耗能为0的牌，抽 !M! 张牌。 NL 每回合最多触发 !MKM2! 次。"
+  },
+  "Mizuki_SlicedMeat" : {
+    "NAME": "圆圆肉片",
+    "DESCRIPTION": " mizuki:食材 。 NL 消耗 。 NL 获得 [E] 。"
+  },
+  "Mizuki_LegMeatWithBone" : {
+    "NAME": "带骨腿肉",
+    "DESCRIPTION": " mizuki:食材 。 NL 消耗 。 NL 获得 !M! 点 力量 。"
+  },
+  "Mizuki_MeatEssence" : {
+    "NAME": "晶肝茸髓",
+    "DESCRIPTION": " mizuki:食材 。 NL 消耗 。 NL 获得 !M! 层 人工制品 。"
+  },
+  "Mizuki_ExThickPie" : {
+    "NAME": "超级厚馅饼",
+    "DESCRIPTION": "{@@} mizuki:食物 。 NL 获得 [E] [E] 。 NL 抽 !MKM3! 张牌 。 NL {!mizuki:LastBite!|1= （还剩 !M! 口）|-1= （最后一口！）}"
+  },
+  "Mizuki_PineBranchSmokedPork" : {
+    "NAME": "松枝熏肉",
+    "DESCRIPTION": "{@@} mizuki:食物 。 NL 下一回合获得 [E] [E] 。 NL {!mizuki:LastBite!|1= （还剩 !M! 口）|-1= （最后一口！）}"
+  },
+  "Mizuki_DriedLeanMeat" : {
+    "NAME": "低压干制精肉",
+    "DESCRIPTION": "{@@} mizuki:食物 。 NL 下一回合获得 [E] [E] [E] [E] 。 NL {!mizuki:LastBite!|1= （还剩 !M! 口）|-1= （最后一口！）}"
+  },
+  "Mizuki_HighTempCookedMeat" : {
+    "NAME": "极温速烹兽肉",
+    "DESCRIPTION": "{@@} mizuki:食物 。 NL 获得 !MKM2! 点 力量 。 NL {!mizuki:LastBite!|1= （还剩 !M! 口）|-1= （最后一口！）}"
+  },
+  "Mizuki_SoupGel" : {
+    "NAME": "鲜味汤凝胶",
+    "DESCRIPTION": "{@@} mizuki:食物 。 NL 获得 !MKM2! 点 力量 。 NL {!mizuki:LastBite!|1= （还剩 !M! 口）|-1= （最后一口！）}"
+  },
+  "Mizuki_ReheatedThickSoup" : {
+    "NAME": "高压复焗浓汤",
+    "DESCRIPTION": "{@@} mizuki:食物 。 NL 阻止下 !MKM2! 次你受到的生命值损伤 。 NL {!mizuki:LastBite!|1= （还剩 !M! 口）|-1= （最后一口！）}"
+  },
+  "Mizuki_FlavoredJerky" : {
+    "NAME": "脱水增味肉干",
+    "DESCRIPTION": "{@@} mizuki:食物 。 NL 获得 [E] [E] [E] [E] 。 NL {!mizuki:LastBite!|1= （还剩 !M! 口）|-1= （最后一口！）}"
+  },
+  "Mizuki_LowTempCookedMeat" : {
+    "NAME": "低温鲜烹炙肉",
+    "DESCRIPTION": "{@@} mizuki:食物 。 NL 获得 !MKM2! 点 力量 。 NL 获得 !MKM3! 点 敏捷 。 NL {!mizuki:LastBite!|1= （还剩 !M! 口）|-1= （最后一口！）}"
+  },
+  "Mizuki_ExtractedLipidCrystal" : {
+    "NAME": "提取脂凝晶",
+    "DESCRIPTION": "{@@} mizuki:食物 。 NL 获得 !MKM2! 点 力量 。 NL {!mizuki:LastBite!|1= （还剩 !M! 口）|-1= （最后一口！）}"
+  },
+  "Mizuki_FriedMixedMeatRice" : {
+    "NAME": "香煎杂肉饭",
+    "DESCRIPTION": "{@@} mizuki:食物 。 NL 获得 !MKM2! 点 力量 。 NL {!mizuki:LastBite!|1= （还剩 !M! 口）|-1= （最后一口！）}"
+  },
+  "Mizuki_HunterRiceBun" : {
+    "NAME": "猎人饭包",
+    "DESCRIPTION": "{@@} mizuki:食物 。 NL 获得 [E] [E] 。 NL 获得 !MKM3! 点 敏捷 。 NL {!mizuki:LastBite!|1= （还剩 !M! 口）|-1= （最后一口！）}"
+  },
+  "Mizuki_VacuumCooledMeatChop" : {
+    "NAME": "真空冷制肉脍",
+    "DESCRIPTION": "{@@} mizuki:食物 。 NL 获得 !MKM2! 点 力量 。 NL 抽 !MKM3! 张牌 。 NL {!mizuki:LastBite!|1= （还剩 !M! 口）|-1= （最后一口！）}"
+  },
+  "Mizuki_CompoundRefinedSauce" : {
+    "NAME": "复合精制肉酱",
+    "DESCRIPTION": "{@@} mizuki:食物 。 NL 抽 !MKM2! 张牌 。 NL {!mizuki:LastBite!|1= （还剩 !M! 口）|-1= （最后一口！）}"
+  },
+  "Mizuki_ConcentratedBroth" : {
+    "NAME": "浓缩羹原液",
+    "DESCRIPTION": "{@@} mizuki:食物 。 NL 下一回合，抽 !MKM2! 张牌 。 NL {!mizuki:LastBite!|1= （还剩 !M! 口）|-1= （最后一口！）}"
+  },
+  "Mizuki_FreshCondensedCube" : {
+    "NAME": "鲜萃凝方体",
+    "DESCRIPTION": "{@@} mizuki:食物 。 NL 获得 [E] [E] [E] [E] 。 NL 获得 !MKM3! 点 力量 。 NL {!mizuki:LastBite!|1= （还剩 !M! 口）|-1= （最后一口！）}"
+  },
+  "Mizuki_MealSubstitutePowder" : {
+    "NAME": "生制代餐粗粉",
+    "DESCRIPTION": "{@@} mizuki:食物 。 NL 获得 !MKM2! 点最大生命。 NL {!mizuki:LastBite!|1= （还剩 !M! 口）|-1= （最后一口！）}"
+  },
+  "Mizuki_NanoDish" : {
+    "NAME": "东国纳米割烹",
+    "DESCRIPTION": "{@@} mizuki:食物 。 NL 恢复 !MKM2! 点生命 。 NL 获得 !MKM3! 点 敏捷 。 NL {!mizuki:LastBite!|1= （还剩 !M! 口）|-1= （最后一口！）}"
+  },
+  "Mizuki_KnightSupplement" : {
+    "NAME": "卡西米尔骑士补充剂",
+    "DESCRIPTION": "{@@} mizuki:食物 。 NL 你打出的下一张技能牌会打出 !MKM2! 次。 NL {!mizuki:LastBite!|1= （还剩 !M! 口）|-1= （最后一口！）}"
+  },
+  "Mizuki_PoetryGel" : {
+    "NAME": "米诺斯诗歌凝胶",
+    "DESCRIPTION": "{@@} mizuki:食物 。 NL 你打出的下一张牌会打出 !MKM2! 次。 NL 本局游戏中每打出过1次该牌，额外打出2次。 NL {!mizuki:LastBite!|1= （还剩 !M! 口）|-1= （最后一口！）}"
+  },
+  "Mizuki_CarnivalDinner" : {
+    "NAME": "部族狂欢晚宴",
+    "DESCRIPTION": "{@@} mizuki:食物 。 NL 获得 !MKM2! 点 力量 。 NL 进入 mizuki:隐匿 。 NL {!mizuki:LastBite!|1= （还剩 !M! 口）|-1= （最后一口！）}"
+  },
+  "Mizuki_MoleculeCapsule" : {
+    "NAME": "哥伦比亚分子胶囊",
+    "DESCRIPTION": "{@@} mizuki:食物 。 NL 抽牌直到将手牌抽满。 NL {!mizuki:LastBite!|1= （还剩 !M! 口）|-1= （最后一口！）}"
+  },
+  "Mizuki_RoyalCube" : {
+    "NAME": "维多利亚皇家凝方",
+    "DESCRIPTION": "{@@} mizuki:食物 。 NL 将你的能量翻三倍。 NL {!mizuki:LastBite!|1= （还剩 !M! 口）|-1= （最后一口！）}"
+  },
+  "Mizuki_ThickSoupExtract" : {
+    "NAME": "莱塔尼亚浓汤鲜萃",
+    "DESCRIPTION": "{@@} mizuki:食物 。 NL 获得 !MKM2! 点 力量 。 NL 获得 !B! 点 格挡 。 NL {!mizuki:LastBite!|1= （还剩 !M! 口）|-1= （最后一口！）}"
+  },
+  "Mizuki_PolysulfideGranules" : {
+    "NAME": "味纯聚素粒",
+    "DESCRIPTION": "{@@} mizuki:食物 。 NL 你打出的下一张攻击牌会打出三次。 NL 获得 !MKM2! 点最大生命。 NL {!mizuki:LastBite!|1= （还剩 !M! 口）|-1= （最后一口！）}"
+  },
+  "Mizuki_TransferredChitosanBlock" : {
+    "NAME": "转质壳酯块",
+    "DESCRIPTION": "{@@} mizuki:食物 。 NL 恢复 !MKM2! 点生命 。 NL 获得 !B! 点 格挡 。 NL {!mizuki:LastBite!|1= （还剩 !M! 口）|-1= （最后一口！）}"
+  },
+  "Mizuki_EnergyAgent" : {
+    "NAME": "鲜能剂",
+    "DESCRIPTION": "{@@} mizuki:食物 。 NL 获得 !MKM2! 点 力量 。 NL 抽 !MKM3! 张牌 。 NL {!mizuki:LastBite!|1= （还剩 !M! 口）|-1= （最后一口！）}"
+  },
+  "Mizuki_CarbonWaterFattyAggregate" : {
+    "NAME": "碳水脂肪聚块",
+    "DESCRIPTION": "{@@} mizuki:食物 。 NL 恢复 !MKM2! 点生命 。 NL 获得 !MKM3! 点最大生命。 NL {!mizuki:LastBite!|1= （还剩 !M! 口）|-1= （最后一口！）}"
+  },
+  "Mizuki_CrabExtract" : {
+    "NAME": "蟹醇",
+    "DESCRIPTION": "{@@} mizuki:食物 。 NL 获得 !B! 点 格挡 。 NL 获得 !MKM2! 点 敏捷 。 NL {!mizuki:LastBite!|1= （还剩 !M! 口）|-1= （最后一口！）}"
+  },
+  "Mizuki_RoastBeastPancake" : {
+    "NAME": "炭烤兽肉卷饼",
+    "DESCRIPTION": "{@@} mizuki:食物 。 NL 获得 !MKM2! 点 力量 。 NL {!mizuki:LastBite!|1= （还剩 !M! 口）|-1= （最后一口！）}"
+  },
+  "Mizuki_MountainSoup" : {
+    "NAME": "炎国山水原液",
+    "DESCRIPTION": "{@@} mizuki:食物 。 NL 获得 !MKM2! 点 力量 。 NL {!mizuki:LastBite!|1= （还剩 !M! 口）|-1= （最后一口！）}"
+  },
+  "Mizuki_SoupExtract" : {
+    "NAME": "拉特兰圣音汤醇",
+    "DESCRIPTION": "{@@} mizuki:食物 。 NL 获得 !MKM2! 点最大生命。 NL {!mizuki:LastBite!|1= （还剩 !M! 口）|-1= （最后一口！）}"
+  },
+  "Mizuki_Dice" : {
+    "NAME": "掷骰",
+    "DESCRIPTION": "掷出一枚骰子。 NL 随机触发正面效果，强度依骰子点数而定。 NL 保留 。"
+  }
+}

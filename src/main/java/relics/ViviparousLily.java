@@ -14,23 +14,29 @@ import modcore.MizukiModCore;
 
 public class ViviparousLily extends AbstractMizukiRelic
 {
+
+    //胎生百合
     public static final String ID = MizukiModCore.MakePath(ViviparousLily.class.getSimpleName());
     public ViviparousLily()
     {
         super(ID, AbstractRelic.RelicTier.SPECIAL, AbstractRelic.LandingSound.MAGICAL);
     }
 
-    public void onUseCard(AbstractCard card, UseCardAction action) {
-        if (card.type == AbstractCard.CardType.SKILL) {
+    public void onUseCard(AbstractCard card, UseCardAction action)
+    {
+        /*
+        if (card.type == AbstractCard.CardType.SKILL)
+        {
             this.counter++;
-            if (this.counter % 3 == 0) {
+            if (this.counter % 3 == 0)
+            {
 
                 this.counter = 0;
 
             }
-        }
-        int roll = MathUtils.random(2);
-        if (roll == 3)
+        }*/
+        int roll = MathUtils.random(3);
+        if (roll == 0 || roll == 1)
         {
             flash();
             addToBot((AbstractGameAction) new RelicAboveCreatureAction((AbstractCreature) AbstractDungeon.player, this));

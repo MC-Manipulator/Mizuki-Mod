@@ -1,0 +1,427 @@
+{
+  "Mizuki:Irene": {
+    "NAME": "艾丽妮",
+    "MOVES": [
+      "审判之火",
+      "净化之剑",
+      "起风",
+      "裂潮",
+      "判决",
+      "刺击"
+    ],
+    "DIALOG": [
+      "海嗣......",
+      "(看来她已经听不进任何话了)",
+      "我的灯将净化邪恶！",
+      "我的剑将劈开海潮！",
+      "我的眼将找出真相！",
+      "我的心会作出判决！"
+    ]
+  },
+  "Mizuki:TearyDetective": {
+    "NAME": "流泪小子",
+    "MOVES": [
+      "呜呜呜",
+      "侦探工作",
+      "踢一脚",
+      "逃离"
+    ],
+    "DIALOG": [
+      "呜呜呜",
+      "（泪流满面）",
+      "（泣不成声）",
+      "（泪如雨下）",
+      "（嚎啕大哭）",
+      "（泪眼汪汪）",
+      "（他的哭声把怪物引过来了...）"
+    ]
+  },
+  "Mizuki:DuckLord": {
+    "NAME": "鸭爵",
+    "MOVES": [
+      "金钱交易",
+      "慌乱",
+      "逃离"
+    ],
+    "DIALOG": [
+    ]
+  },
+  "Mizuki:Gopnik": {
+    "NAME": "高普尼克",
+    "MOVES": [
+      "重拳",
+      "蓄力"
+    ],
+    "DIALOG": [
+    ]
+  },
+  "Mizuki:RoarKnightclubTrainee": {
+    "NAME": "民兵弓弩手",
+    "MOVES": [
+      "射击",
+      "听从",
+      "溃散"
+    ],
+    "DIALOG": [
+    ]
+  },
+  "Mizuki:NamelessIndependentKnight": {
+    "NAME": "民兵守卫",
+    "MOVES": [
+      "劈砍",
+      "听从",
+      "溃散"
+    ],
+    "DIALOG": [
+    ]
+  },
+  "Mizuki:BladehelmKnightclubTrainee": {
+    "NAME": "民兵指挥官",
+    "MOVES": [
+      "号令",
+      "防御指示",
+      "强化指示",
+      "进攻指示",
+      "锐意",
+      "横扫"
+    ],
+    "DIALOG": [
+    ]
+  },
+  "Mizuki:SkimmingSeaDrifter": {
+    "NAME": "掠海漂移体",
+    "MOVES": [
+      "投掷酸蚀体",
+      "强化分泌",
+      "酸蚀双发"
+    ],
+    "DIALOG": [
+    ]
+  },
+  "Mizuki:RetchingBroodmother": {
+    "NAME": "投嗣育母",
+    "MOVES": [
+      "多重繁育",
+      "腺体分泌",
+      "繁育"
+    ],
+    "DIALOG": [
+    ]
+  },
+  "Mizuki:BalefulBroodling": {
+    "NAME": "注亡拟嗣",
+    "MOVES": [
+      "侵蚀"
+    ],
+    "DIALOG": [
+    ]
+  },
+  "Mizuki:BasinSeaReaper": {
+    "NAME": "钵海收割者",
+    "MOVES": [
+      "突刺",
+      "收割",
+      "惊怨",
+      "沉眠"
+    ],
+    "DIALOG": [
+    ]
+  },
+  "Mizuki:DeepSeaSlider": {
+    "NAME": "底海滑动者",
+    "MOVES": [
+      "拍打",
+      "甩动触手",
+      "酸蚀"
+    ],
+    "DIALOG": [
+    ]
+  },
+  "Mizuki:BoneSeaDrifter": {
+    "NAME": "骨海漂流体",
+    "MOVES": [
+      "酸蚀强化",
+      "硬化冲撞",
+      "酸液软化"
+    ],
+    "DIALOG": [
+    ]
+  },
+  "Mizuki:NetherseaSwarmcaller": {
+    "NAME": "深溟巢涌者",
+    "MOVES": [
+      "搅动蜉蝣",
+      "翻搅溟痕"
+    ],
+    "DIALOG": [
+    ]
+  },
+  "Mizuki:NetherseaReefbreaker": {
+    "NAME": "深溟裂礁者",
+    "MOVES": [
+      "环境改造",
+      "裂礁拍击",
+      "潜入深溟"
+    ],
+    "DIALOG": [
+    ]
+  },
+  "Mizuki:NetherseaPredator": {
+    "NAME": "深溟猎食者",
+    "MOVES": [
+      "突刺",
+      "几丁质刺击",
+      "自适应"
+    ],
+    "DIALOG": [
+    ]
+  },
+  "Mizuki:PocketSeaCrawler": {
+    "NAME": "囊海爬行者",
+    "MOVES": [
+      "敏感增生",
+      "锐刺冲击",
+      "焚灭退行"
+    ],
+    "DIALOG": [
+    ]
+  },
+  "Mizuki:TheFirstToTalk": {
+    "NAME": "首言者",
+    "MOVES": [
+      "首言",
+      "聚积",
+      "神经液泡",
+      "增生"
+    ],
+    "DIALOG": [
+    ]
+  },
+  "Mizuki:IzumiksOffspring": {
+    "NAME": "伊祖米克的后代",
+    "MOVES": [
+      "测试"
+    ],
+    "DIALOG": [
+      "伊祖米克的后代",
+      "将要做什么"
+    ]
+  },
+  "Mizuki:Lumen": {
+    "NAME": "流明",
+    "MOVES": [
+      "医护处理",
+      "沐雨",
+      "沛霖",
+      "灯火不灭",
+      "流明星火"
+    ],
+    "DIALOG": [
+      "最后的观潮者",
+      "流明不会成为敌人的攻击目标。流明会为你提供格挡与治疗效果，并解除负面状态。",
+      "好像要给予格挡。",
+      "好像要给予治疗效果。",
+      "好像要给予强化。",
+      "好像要进行强化。",
+      "好像要给予格挡并给予强化。"
+    ]
+  },
+  "Mizuki:Chest": {
+    "NAME": "宝箱",
+    "MOVES": [
+      "熠熠生辉"
+    ],
+    "DIALOG": [
+    ]
+  },
+  "Mizuki:SarkazGrudgebearer": {
+    "NAME": "萨卡兹积怨者",
+    "MOVES": [
+      "积怨",
+      "仇恨连击"
+    ],
+    "DIALOG": [
+    ]
+  },
+  "Mizuki:SarkazBladeweaver": {
+    "NAME": "萨卡兹魔剑士",
+    "MOVES": [
+      "源石技艺强化",
+      "法术劈砍"
+    ],
+    "DIALOG": [
+    ]
+  },
+  "Mizuki:SarkazSentinel": {
+    "NAME": "萨卡兹哨兵",
+    "MOVES": [
+      "巡逻",
+      "警戒",
+      "逃离"
+    ],
+    "DIALOG": [
+    ]
+  },
+  "Mizuki:SaintCarmen": {
+    "NAME": "圣徒卡门",
+    "MOVES": [
+      "完美装填",
+      "装填",
+      "尽力装填",
+      "爆裂铳射",
+      "弱点攻击",
+      "剑击"
+    ],
+    "DIALOG": [
+    ]
+  },
+  "Mizuki:TidelinkedBishop": {
+    "NAME": "接潮主教",
+    "MOVES": [
+      "祝福",
+      "注视",
+      "责难",
+      "警戒"
+    ],
+    "DIALOG": [
+    ]
+  },
+  "Mizuki:TidelinkedImmortal": {
+    "NAME": "接潮斥亡体",
+    "MOVES": [
+      "刺击",
+      "酸腐",
+      "连斩"
+    ],
+    "DIALOG": [
+    ]
+  },
+  "Mizuki:Pathshaper": {
+    "NAME": "塑路者",
+    "MOVES": [
+      "开路",
+      "啃食",
+      "汇集",
+      "晕眩"
+    ],
+    "DIALOG": [
+    ]
+  },
+  "Mizuki:PathshaperFractal": {
+    "NAME": "塑路者分形",
+    "MOVES": [
+      "开路",
+      "反哺"
+    ],
+    "DIALOG": [
+    ]
+  },
+  "Mizuki:TheEndspeaker": {
+    "NAME": "屠谕者",
+    "MOVES": [
+      "学习",
+      "言语",
+      "拍打",
+      "威吓",
+      "甩尾",
+      "撕裂",
+      "咆哮",
+      "撕咬",
+      "洗礼",
+      "撞击"
+    ],
+    "DIALOG": [
+    ]
+  },
+  "Mizuki:RegressedBasinSeaReaper": {
+    "NAME": "退行的钵海收割者",
+    "MOVES": [
+      "退行"
+    ],
+    "DIALOG": [
+    ]
+  },
+  "Mizuki:RegressedNetherseaPredator": {
+    "NAME": "退行的深溟猎食者",
+    "MOVES": [
+      "退行"
+    ],
+    "DIALOG": [
+    ]
+  },
+  "Mizuki:RegressedNetherseaReefbreaker": {
+    "NAME": "退行的深溟裂礁者",
+    "MOVES": [
+      "退行"
+    ],
+    "DIALOG": [
+    ]
+  },
+  "Mizuki:RegressedPocketSeaCrawler": {
+    "NAME": "退行的囊海爬行者",
+    "MOVES": [
+      "退行"
+    ],
+    "DIALOG": [
+    ]
+  },
+  "Mizuki:SalVientoBishopQuintus": {
+    "NAME": "昆图斯",
+    "MOVES": [
+      "注视",
+      "大潮",
+      "崩塌",
+      "断裂生殖"
+    ],
+    "DIALOG": [
+    ]
+  },
+  "Mizuki:SeabornsFilialGeneration": {
+    "NAME": "子代",
+    "MOVES": [
+      "摄食",
+      "退行"
+    ],
+    "DIALOG": [
+    ]
+  },
+  "Mizuki:SalVientoBishopQuintusBody": {
+    "NAME": "昆图斯的躯干",
+    "MOVES": [
+      "大潮",
+      "崩塌"
+    ],
+    "DIALOG": [
+    ]
+  },
+  "Mizuki:ErosionproofCoatingDevice": {
+    "NAME": "镀膜装置",
+    "MOVES": [
+      "待机",
+      "镀层",
+      "关闭",
+      "损坏"
+    ],
+    "DIALOG": [
+      "奇特的装置",
+      "镀膜装置不会成为敌人的攻击目标。当你打出攻击牌，技能牌与能力牌各 #b1 张后，镀膜装置开始工作，每回合为你提供 #y格挡 并恢复 #y神经损伤 ，持续 #b3 回合。 装置最多可以启动 #b2 次。",
+      "好像不会进行任何行动。",
+      "好像要给予格挡并给予强化。",
+      "好像要进行特殊的行动。",
+      "好像快要支撑不住了。"
+    ]
+  },
+  "Mizuki:ParanoiaIllusion": {
+    "NAME": "偏执泡影",
+    "MOVES": [
+      "苦潮",
+      "迷茫",
+      "起身",
+      "大群的祈望",
+      "悲歌",
+      "涌动"
+    ],
+    "DIALOG": [
+    ]
+  }
+}

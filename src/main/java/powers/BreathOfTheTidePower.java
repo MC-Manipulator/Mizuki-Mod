@@ -18,9 +18,11 @@ import com.megacrit.cardcrawl.localization.PowerStrings;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 import com.megacrit.cardcrawl.powers.PlatedArmorPower;
 import com.megacrit.cardcrawl.powers.StrengthPower;
+import com.megacrit.cardcrawl.rooms.AbstractRoom;
 import com.megacrit.cardcrawl.vfx.cardManip.ShowCardAndObtainEffect;
 import helper.EventHelper;
 import modcore.MizukiModCore;
+import rewards.SpecificSingleCard;
 
 public class BreathOfTheTidePower extends AbstractMizukiPower
 {
@@ -43,16 +45,17 @@ public class BreathOfTheTidePower extends AbstractMizukiPower
     {
         AbstractPlayer p = AbstractDungeon.player;
         MizukiModCore.logger.info("IF HAS POWER PLATED ARMOR" + AbstractDungeon.player.hasPower("Plated Armor"));
-        if (AbstractDungeon.player.hasPower(new PlatedArmorPower(AbstractDungeon.player, 1).ID))
+        if (AbstractDungeon.player.hasPower(PlatedArmorPower.POWER_ID))
         {
             for (int i = 0;i < this.amount;i++)
             {
                 MizukiModCore.logger.info("ADD CARD ABSURDFATE");
-                AbstractDungeon.effectList.add(new ShowCardAndObtainEffect(new AbsurdFate(), Settings.WIDTH / 2.0F, Settings.HEIGHT / 2.0F));
+                (AbstractDungeon.getCurrRoom()).rewards.add(new SpecificSingleCard(new AbsurdFate()));
+                //AbstractDungeon.effectList.add(new ShowCardAndObtainEffect(new AbsurdFate(), Settings.WIDTH / 2.0F, Settings.HEIGHT / 2.0F));
                 //addToBot((AbstractGameAction)new AddCardToDeckAction(new AbsurdFate()));
                 AbstractDungeon.player.masterDeck.removeCard(sourceCard);
-                addToBot((AbstractGameAction)new ReducePowerAction(owner, owner, this.ID, this.amount));
             }
+            addToBot((AbstractGameAction)new RemoveSpecificPowerAction(owner, owner, this.ID));
         }
     }
 

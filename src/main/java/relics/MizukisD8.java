@@ -97,11 +97,6 @@ public class MizukisD8 extends AbstractMizukiRelic implements DicePatch
         }
     }
 
-    public boolean canSpawn()
-    {
-        return AbstractDungeon.player.hasRelic(MizukisDice.ID);
-    }
-
     public int getCounter()
     {
         return this.counter;
