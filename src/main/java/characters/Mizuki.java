@@ -63,7 +63,7 @@ public class Mizuki extends CustomPlayer
         this.stateData.setMix("Idle", "Die", 0.1F);
         AnimationState.TrackEntry e = this.state.setAnimation(0, "Idle", true);
         e.setTimeScale(1.5F);
-        //refreshSkin();
+        refreshSkin();
     }
 
     public static class Enums
@@ -287,11 +287,14 @@ public class Mizuki extends CustomPlayer
 
     public void refreshSkin()
     {
-        MizukiSkinSelectScreen.Skin skin = MizukiSkinSelectScreen.getSkin();
-        loadAnimation(skin.charPath + ".atlas", skin.charPath + ".json", 1.5F);
-        AnimationState.TrackEntry e = this.state.setAnimation(0, "Idle", true);
-        e.setTime(e.getEndTime() * MathUtils.random());
-        e.setTimeScale(1.2F);
+        if (MizukiSkinSelectScreen.getSkin() != null)
+        {
+            MizukiSkinSelectScreen.Skin skin = MizukiSkinSelectScreen.getSkin();
+            loadAnimation(skin.charPath + ".atlas", skin.charPath + ".json", 1.5F);
+            AnimationState.TrackEntry e = this.state.setAnimation(0, "Idle", true);
+            e.setTime(e.getEndTime() * MathUtils.random());
+            e.setTimeScale(1.2F);
+        }
     }
 
     @Override

@@ -11,7 +11,7 @@ public class SpecificSingleCard extends AbstractMizukiReward
 
     public SpecificSingleCard(AbstractCard rewardCard)
     {
-        super(path, description, Enums.Mizuki_SingleCard);
+        super(path, description, Enums.Mizuki_SpecificSingleCard);
         this.rewardCard = rewardCard;
         this.text = rewardString.TEXT[7];
         this.text = this.text  + rewardCard.name;

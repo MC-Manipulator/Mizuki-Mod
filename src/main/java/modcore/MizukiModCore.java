@@ -23,10 +23,7 @@ import com.megacrit.cardcrawl.monsters.exordium.FungiBeast;
 import com.megacrit.cardcrawl.monsters.exordium.JawWorm;
 import com.megacrit.cardcrawl.rewards.RewardSave;
 import events.*;
-import helper.EventHelper;
-import helper.FourthMagicNumber;
-import helper.SecondMagicNumber;
-import helper.ThirdMagicNumber;
+import helper.*;
 import monsters.boss.beyond.ParanoiaIllusion;
 import monsters.boss.city.SalVientoBishopQuintus;
 import monsters.boss.city.SalVientoBishopQuintusBody;
@@ -738,25 +735,19 @@ public class MizukiModCore
 
     private static ArrayList<String> bossList;
 
-    public void OriginalModRelicRemove()
-    {
-
-
-        MizukiModCore.logger.info("原版模式移出遗物");
-    }
-
     @Override
     public void receiveStartGame()
     {
-        if (!Config.RelicAppear.Get() && !(AbstractDungeon.player instanceof Mizuki))
-            OriginalModRelicRemove();
+        MizukiModCore.logger.info("进入游戏");
+        //此处应当重置食物系统的合成内容
+        CookingHelper.gridScreenForCooking = false;
+        CookingHelper.ableToCook = false;
+        CookingHelper.confirmScreenForCooking = false;
     }
 
     @Override
     public void receiveStartAct()
     {
-        if (!Config.RelicAppear.Get() && !(AbstractDungeon.player instanceof Mizuki))
-            OriginalModRelicRemove();
         if (AbstractDungeon.player instanceof Mizuki && !MizukiModCore.originalMod)
         {
             if (AbstractDungeon.actNum <= 3)

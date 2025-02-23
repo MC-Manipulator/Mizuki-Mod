@@ -20,6 +20,7 @@ import java.util.ArrayList;
 
 public class MizukiBtnPatch
 {
+    //原版模式勾选框
     public static final Hitbox challengeDownHitbox = new Hitbox(40.0F * Settings.scale * 0.991F, 40.0F * Settings.scale);
 
     public static final ArrayList<PowerTip> challengeTips = new ArrayList<>();

@@ -71,6 +71,7 @@ public class LonelyElder extends AbstractImageEvent
             ((AbstractCard)AbstractDungeon.gridSelectScreen.selectedCards.get(0)).upgrade();
             upgCard = AbstractDungeon.gridSelectScreen.selectedCards.get(0);
             AbstractDungeon.player.bottledCardUpgradeCheck(upgCard);
+            AbstractDungeon.gridSelectScreen.selectedCards.clear();
             this.pickCard = false;
         }
     }

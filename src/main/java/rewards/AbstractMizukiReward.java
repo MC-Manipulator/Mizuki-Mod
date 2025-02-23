@@ -41,5 +41,7 @@ public abstract class AbstractMizukiReward extends CustomReward
         public static RewardItem.RewardType Mizuki_Ingredient;
         @SpireEnum
         public static RewardItem.RewardType Mizuki_SingleCard;
+        @SpireEnum
+        public static RewardItem.RewardType Mizuki_SpecificSingleCard;
     }
 }

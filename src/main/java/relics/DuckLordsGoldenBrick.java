@@ -30,7 +30,15 @@ public class DuckLordsGoldenBrick extends AbstractMizukiRelic
     public void onEquip()
     {
         super.onEquip();
-        AbstractDungeon.getCurrRoom().spawnRelicAndObtain(Settings.WIDTH / 2.0F, Settings.HEIGHT / 2.0F, new MizukisD8());
+        addToBot(new AbstractGameAction()
+        {
+            @Override
+            public void update()
+            {
+                AbstractDungeon.getCurrRoom().spawnRelicAndObtain(Settings.WIDTH / 2.0F, Settings.HEIGHT / 2.0F, new MizukisD8());
+                isDone = true;
+            }
+        });
     }
 
     @Override
