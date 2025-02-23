@@ -247,17 +247,9 @@ public class CookingHelper
         {
             return "SlicedMeat";
         }
-        if (c instanceof FowlbeastWingsMeat)
-        {
-            return "FowlbeastWingsMeat";
-        }
         if (c instanceof LegMeatWithBone)
         {
             return "LegMeatWithBone";
-        }
-        if (c instanceof CartilageChunks)
-        {
-            return "CartilageChunks";
         }
         if (c instanceof MeatEssence)
         {
